@@ -1,0 +1,82 @@
+@import "../../css-config/mixins.scss";
+
+
+
+.des {
+  background-size: cover;
+
+}
+
+/* promotion */
+#Promotion {
+  position: absolute;
+  color: #41444B;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 5px;
+
+
+  @include md {
+    top: 780%;
+  }
+}
+
+.content {
+  //width: 1450px;
+  position: absolute;
+  top:20%;
+}
+
+.content h4 {
+  //transform: translateX(70%);
+  font-weight: 500;
+
+}
+
+.content h3 {
+  //transform: translateX(70%);
+  font-weight: 400;
+
+}
+
+.content h5 {
+  //transform: translateX(70%);
+  font-weight: 500;
+
+}
+
+
+
+
+img {
+  max-width: 100%;
+
+}
+
+.ctas {
+  margin-bottom: 15%;
+  gap: 30px;
+
+  .btn-lg {
+    font-size: 18px;
+    font-weight: 900;
+    width: fit-content;
+    border: .5px solid crimson;
+    border-radius: 100px;
+    padding: 12px 40px;
+    gap: 30px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    &.v2 {
+        background-color: white;
+        color: black;
+    }
+    &:hover {
+        opacity: 0.6;
+
+    }
+  }
+
+}

@@ -1,0 +1,36 @@
+@import "../../../css-config/mixins.scss";
+
+/* Features */
+#features {
+  margin-top: -6px;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+  @include md {
+    position: absolute;
+    //left: 50px;
+    top: 50%;
+    //transform: translateY(-50%);
+}
+
+
+  }
+
+
+// .row {
+//   display: flex;
+
+// }
+.feature-box {
+  text-align: center;
+  padding: 5%;
+
+}
+
+.icon {
+  margin: 0.5rem;
+  &:hover {
+      opacity: 0.6;
+  }    
+}

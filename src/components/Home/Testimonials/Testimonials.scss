@@ -1,0 +1,28 @@
+@import "../../../css-config/mixins.scss";
+
+
+
+/* Testimonials */
+#testimonials {
+  margin-top: -71px;
+  text-align: center;
+
+  @include md {
+    position: absolute;
+    margin-top: -63px;
+
+    top: 140%;
+
+  }
+
+}
+
+.text {
+  color: #F86F03;
+}
+
+
+.d-block w-100 {
+  padding: 5% 15% 40% 15%;
+  background-size: cover;
+}

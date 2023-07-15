@@ -1,0 +1,42 @@
+@import "../../css-config/mixins.scss";
+
+.section-p2 {
+  padding: 40px 80px;
+}
+
+#Products1 {
+
+  text-align: center;
+  //top: 1500%;
+
+
+
+
+  @include md {
+
+    top: 2000%;
+
+
+
+  }
+}
+
+.Products1-container {
+  display: flex;
+  //justify-content: space-between;
+  //padding-top: 20px;
+  //flex-wrap: wrap;
+  //width: 100%;
+
+
+}
+
+.products1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+}

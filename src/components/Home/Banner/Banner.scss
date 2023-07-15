@@ -1,0 +1,165 @@
+@import "../../../css-config/mixins.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+
+}
+// #Media query to change the image to mobile size
+@include md {
+  img {
+    max-width: 100%;
+  }
+
+  .pro-img {
+
+    background-size: cover;
+  }
+  #title {
+    position: absolute;
+    text-align: left;
+    padding-bottom: 5px;
+
+  }
+  .content{
+    transform: translateY(-40%);
+  }
+  .content h1 {
+    top: 2%;
+    font-size: 0.1rem;
+    line-height: 0.1;
+    font-weight: 100;
+    color:#F86F03;
+  }
+
+  .content h5 {
+    transform: translateY(-55%);
+    font-size: 0.1rem;
+    line-height: 0.1;
+    font-weight: 200;
+    color:#F86F03;
+  }
+
+  .content p {
+    transform: translateY(-55%);
+    font-size: 0.1rem;
+    line-height: 0.1;
+    font-weight: 100;
+    color:#F86F03;
+
+  }
+
+  .ctas {
+
+    transform: translateY(-43%);
+    display:flex;
+    justify-content: left;
+    gap: 30px;
+    .banner-cta {
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 100;
+      width: fit-content;
+      border: .5px solid crimson;
+      border-radius: 50px;
+      padding: 10px;
+      margin-bottom: 15%;
+      transition: all ease 0.3s;
+      cursor: pointer;
+      background-color: black;
+      color: white;
+      &.v2 {
+          background-color: white;
+          color: black;
+      }
+      &:hover {
+          opacity: 0.6;
+
+  }
+
+  }
+
+  }
+
+  }
+
+
+
+
+.pro-img {
+
+  background-size: cover;
+
+#title {
+  position: absolute;
+}
+
+.content {
+  width: 600px;
+  position: absolute;
+  top:40%;
+  left: 8.3%;
+
+}
+.content h1 {
+  padding-top: 50px;
+
+  font-size: 3.5rem;
+  line-height: 2.5;
+  font-weight: 900;
+  color:#F86F03;
+}
+
+.content h5 {
+
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color:#F86F03;
+}
+
+.content p {
+
+  margin-bottom: 2%;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color:#F86F03;
+
+}
+
+.ctas {
+  margin-bottom: 15%;
+  display:flex;
+  justify-content: left;
+  gap: 30px;
+  .banner-cta {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    width: fit-content;
+    border: .5px solid crimson;
+    border-radius: 100px;
+    padding: 15px 20px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    &.v2 {
+        background-color: white;
+        color: black;
+    }
+    &:hover {
+        opacity: 0.6;
+
+}
+
+}
+
+}
+
+}

@@ -1,0 +1,49 @@
+@import "../../../css-config/mixins.scss";
+
+#press {
+  background-color: #fff;
+
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  @include md {
+    top:90%;
+  }
+
+
+
+
+.press-logo {
+  width: 50%;
+
+
+  //margin: 0 auto;
+  margin: 40px 20px 50px;
+  display:flex;
+  gap: 20px;
+  align-items: center;
+  transform: translateX(45%);
+  @include md {
+    position: absolute;
+    width: 50%;
+
+    transform: translateY(5500%);
+
+  }
+  .logo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    //padding-top: 10px;
+    @include md {
+      padding-top: 0.5px;
+      transform: translateX(185%);
+
+    }
+
+  }
+}
+
+}
