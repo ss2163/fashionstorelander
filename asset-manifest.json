@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/fashionstorelander/static/css/main.578243d1.css",
+    "main.js": "/fashionstorelander/static/js/main.71a3c84b.js",
+    "static/media/banner.png": "/fashionstorelander/static/media/banner.ad37a9bc2517ccba48b8.png",
+    "static/media/AEL.jpg": "/fashionstorelander/static/media/AEL.22ac19ce0fe254603154.jpg",
+    "static/media/newsletter-bg.jpeg": "/fashionstorelander/static/media/newsletter-bg.b6f22313149bdbb35069.jpeg",
+    "static/media/tnw.png": "/fashionstorelander/static/media/tnw.df4383d7da108661153d.png",
+    "static/media/mashable.png": "/fashionstorelander/static/media/mashable.a2876b348f9b9411144d.png",
+    "static/media/bizinsider.png": "/fashionstorelander/static/media/bizinsider.f236711d674a660bec6e.png",
+    "static/media/techcrunch.png": "/fashionstorelander/static/media/techcrunch.ce0e5471891d6de27c36.png",
+    "index.html": "/fashionstorelander/index.html",
+    "main.578243d1.css.map": "/fashionstorelander/static/css/main.578243d1.css.map",
+    "main.71a3c84b.js.map": "/fashionstorelander/static/js/main.71a3c84b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.578243d1.css",
+    "static/js/main.71a3c84b.js"
+  ]
+}
